@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+    backend:
+        image: backend
+        container_name: backend
+        build:
+            context: ./reservations
+        ports:
+            - "9000:80"
+    frontend:
+        image: frontend
+        container_name: frontend
+        build:
+            context: ./hotel_reservations_front
+        ports:
+            - "4200:80"
+        depends_on:
+            - backend
