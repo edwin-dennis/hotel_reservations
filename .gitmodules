@@ -1,0 +1,3 @@
+[submodule "hotel_reservations_front"]
+	path = hotel_reservations_front
+	url = https://github.com/edwin-dennis/hotel_reservations_front
