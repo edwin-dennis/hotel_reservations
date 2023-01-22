@@ -9,6 +9,8 @@
 | Angular CLI | 15.1.2 |
 | Docker | 20.10.11 |
 
+# How clone this project 
+ - git clone --recurse-submodules https://github.com/edwin-dennis/hotel_reservations.git
 
 # How to run only the backend
 
